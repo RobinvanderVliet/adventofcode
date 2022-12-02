@@ -1,6 +1,6 @@
 <?php
 
-$input = file_get_contents('input/01.txt');
+$input = file_get_contents(__DIR__ . '/input/01.txt');
 
 $sums = [];
 foreach (explode("\n\n", $input) as $value) {
